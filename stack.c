@@ -1,5 +1,4 @@
-#include <stdlib.h> // exit, EXIT_FAILURE, EXIT_SUCCESS
-
+#include <stdlib.h> // NULL, malloc, free
 #include "stack.h" // s_create, s_length, s_push, s_pop, s_peek, s_destroy
 
 typedef struct S_Node
@@ -67,10 +66,14 @@ void* s_pop(Stack *s) {
 }
 
 void* s_peek(Stack *s) {
-  // returns the current head of the stack, without
+  // returns the data of the current head of the stack, without
   // altering the stack itself!
 
-  return s->head->data;
+  if ((s == NULL) || (s->head == NULL)) {
+    return NULL;
+  } else {
+    return s->head->data;
+  }
 }
 
 void s_destroy(Stack *s) {
