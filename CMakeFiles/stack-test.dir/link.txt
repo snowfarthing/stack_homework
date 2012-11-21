@@ -1,0 +1,1 @@
+/usr/bin/gcc   -Wall -Werror    CMakeFiles/stack-test.dir/stack-test.c.o CMakeFiles/stack-test.dir/stack.c.o  -o stack-test -rdynamic 

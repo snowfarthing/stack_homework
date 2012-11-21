@@ -1,0 +1,2 @@
+/home/alpheus/EMPLOYMENT/SpotterRF-Homework/stack/CMakeFiles/stack.dir
+/home/alpheus/EMPLOYMENT/SpotterRF-Homework/stack/CMakeFiles/stack-test.dir

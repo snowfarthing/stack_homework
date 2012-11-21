@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alpheus/EMPLOYMENT/SpotterRF-Homework/stack/stack.c
+stdlib.h
+-
+stack.h
+/home/alpheus/EMPLOYMENT/SpotterRF-Homework/stack/stack.h
+
+/home/alpheus/EMPLOYMENT/SpotterRF-Homework/stack/stack.h
+
